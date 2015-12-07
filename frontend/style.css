@@ -1,8 +1,27 @@
 .content{
   font-family: "Avenir Next";
-  width: 800px;
+  width: 600px;
+  height: 300px;
   margin: auto;
 }
-h1{
+
+h1 {
   text-align: center;
+}
+
+figure#game {
+  text-align: center;
+  margin: auto;
+}
+
+.row{
+  margin: 0;
+  padding: 0;
+}
+
+.tile{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  outline: 1px solid black;
 }
