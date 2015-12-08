@@ -14,15 +14,20 @@ figure#game {
   margin: auto;
 }
 
-.row {
+div.row {
   margin: 0;
   padding: 0;
 }
 
-.tile {
+div.tile {
   display: inline-block;
   width: 30px;
   height: 30px;
-  outline: 1px solid #eee;
+  border: 1px solid #eee;
+  border-style: outset;
   background: #ccc
+}
+
+div.explored {
+  border-style: inset
 }
