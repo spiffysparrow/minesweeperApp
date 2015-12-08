@@ -1,4 +1,4 @@
-.content{
+.content {
   font-family: "Avenir Next";
   width: 600px;
   height: 300px;
@@ -14,14 +14,15 @@ figure#game {
   margin: auto;
 }
 
-.row{
+.row {
   margin: 0;
   padding: 0;
 }
 
-.tile{
+.tile {
   display: inline-block;
   width: 30px;
   height: 30px;
-  outline: 1px solid black;
+  outline: 1px solid #eee;
+  background: #ccc
 }
